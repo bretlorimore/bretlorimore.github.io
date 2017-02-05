@@ -1,0 +1,171 @@
+body
+{
+    background-color: #f2f2f2;
+}
+main
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.centered
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mdl-cell
+{
+    float: left;
+}
+.mdl-button
+{
+    font-size: 12px;
+}
+.content-card
+{
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.content-card .mdl-card__title
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.content-card .content-hidden
+{
+    display: none;
+}
+.content-card .dates
+{
+    margin-bottom: 5px;
+}
+.content-card ul
+{
+    font-size: 13px;
+}
+.content-card img
+{
+    width: 100%;
+}
+.content-card table
+{
+    width: 100%;
+    padding: 13px 13px 0px 13px;
+}
+.content-card table tr
+{
+    height: 100px;
+}
+.content-card table td .employer
+{
+    font-size: 16px;
+    color: rgba(0,0,0,.54);
+    margin-top: 20px;
+}
+.content-card table td .job-title
+{
+    font-size: 24px;
+    font-weight: 300;
+}
+.content-card table td.image-container
+{
+    width: 100px;
+    padding-right: 30px;
+}
+.content-card table td.image-container img
+{
+    float: right;
+    height: 50px;
+    width: auto;
+}
+.content-card.photo
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+.content-card.photo:hover
+{
+    cursor: pointer;
+}
+.photo-card {
+    width: 250px;
+    height: 250px;
+}
+.heading
+{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.homepage.heading
+{
+    margin-top: 100px;
+    padding: 30px 10px 30px 10px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+.heading h1
+{
+    margin: 0;
+    color: #868686;
+}
+.content .heading
+{
+    margin-top: 0px;
+}
+.content .heading.top h3
+{
+    margin-top: 0px;
+}
+@media (max-width: 639px) {
+  .hide-small {
+    display: none;
+  }
+}
+.mdl-layout__header-row
+{
+    padding: 0 40px 0 40px;
+}
+.title
+{
+    text-align: center;
+}
+.cta {
+    margin: 15px;
+}
+.content.mdl-grid
+{
+    margin: 20px 0px;
+}
+.title-block {
+    max-width: 900px;
+}
+.center-column.photos {
+    width: 266px;
+}
+.center-column.resume, .center-column.home {
+    width: calc(100% - 20px);
+}
+@media (min-width: 840px) {
+    .center-column.photos, .center-column.resume, .center-column.home {
+        width: 798px;
+    }
+}
+@media (min-width: 560px) and (max-width: 839px) {
+    .center-column.photos, .center-column.resume, .center-column.home {
+        width: 532px;
+    }
+}
+.home .content-card .intro {
+    padding: 5px 20px 20px 20px;
+    font-weight: 300;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+.home .content-card .intro img {
+    width: 100%;
+    max-width: 300px;
+}
